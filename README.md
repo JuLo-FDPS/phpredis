@@ -310,7 +310,7 @@ _**Description**_: Authenticate the connection using a password or a username an
 ##### *Example*
 ~~~php
 /* Authenticate with the password 'foobared' */
-$redis->auth('foobared');
+$redis->auth('foobared'); 
 
 /* Authenticate with the username 'phpredis', and password 'haxx00r' */
 $redis->auth(['phpredis', 'haxx00r']);
